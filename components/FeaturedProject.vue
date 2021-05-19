@@ -12,6 +12,7 @@
     </div>
 </template>
 
+
 <script>
     import IconifyIcon from '@iconify/vue';
     import arrowRight from '@iconify/icons-cil/arrow-right';

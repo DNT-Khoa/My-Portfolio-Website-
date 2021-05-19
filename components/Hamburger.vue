@@ -12,6 +12,7 @@
         props: {
             isHamburgerOpen: Boolean
         },
+        
 
         methods: {
             triggerToggleEvent() {

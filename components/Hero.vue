@@ -5,7 +5,7 @@
                 <div class="primary-headline">
                     Hey! I’m Khoa Doan, a Vietnamese software engineering student, focused on creating impactful and highly scalable software products.
                 </div>
-                <div class="email">khoa.doan@student.fontys.nl</div>
+                <div class="email"><a href="mailto:khoa.doan@student.fontys.nl">khoa.doan@student.fontys.nl</a></div>
                 <lottie :options="defaultOptions" :height="500" :width="500" class="lottie" />
             </div>
         </div>

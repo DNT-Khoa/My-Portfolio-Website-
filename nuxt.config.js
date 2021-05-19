@@ -55,8 +55,6 @@ export default {
 
   cloudinary: {
     cloudName: 'dkggp2lec',
-    apiKey: '417921778338147', //only needed if you are using server-side upload
-    apiSecret: 'iVmvobzIF9k4TiuNZOcSmzJPFsk', //only needed if you are using server-side upload
   },
 
   loading: {

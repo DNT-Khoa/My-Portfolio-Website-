@@ -19,6 +19,7 @@
     }
 </script>
 
+
 <style lang="scss" scoped>
     .paragraph-wrapper {
         display: flex;

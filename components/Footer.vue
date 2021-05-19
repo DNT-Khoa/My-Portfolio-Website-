@@ -15,7 +15,6 @@
     import IconifyIcon from '@iconify/vue';
     import redHeart from '@iconify/icons-emojione/red-heart';
 
-
     export default {
         name: 'Footer',
         components: {

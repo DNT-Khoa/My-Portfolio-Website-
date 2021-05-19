@@ -48,15 +48,15 @@ export default {
   },
 
   styleResources: {
-    scss: ['./assets/scss/*.scss']
+    scss: ['./assets/scss/variables.scss']
   },
 
   buildModules: ['nuxt-gsap-module'],
 
   cloudinary: {
-    cloudName: process.env.CLOUDNAME,
-    apiKey: process.env.API_KEY, //only needed if you are using server-side upload
-    apiSecret: process.env.API_SECRET, //only needed if you are using server-side upload
+    cloudName: 'dkggp2lec',
+    apiKey: '417921778338147', //only needed if you are using server-side upload
+    apiSecret: 'iVmvobzIF9k4TiuNZOcSmzJPFsk', //only needed if you are using server-side upload
   },
 
   loading: {

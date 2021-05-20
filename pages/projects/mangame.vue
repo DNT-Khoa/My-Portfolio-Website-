@@ -19,18 +19,18 @@
                 status='Finished'
             />
 
-            <ParagraphWrapper data-aos="fade-up" data-aos-delay="300"
+            <ParagraphWrapper 
                 leftContent='Scope of the project'
                 rightContent=''
             >
             <p>This project was organized during my second semester in my first year at university. I really like Japanese comics such as animes and mangas so I decided to choose this topic for my Web Development class!</p>
             </ParagraphWrapper>
 
-            <div class="secondary-title" data-aos="fade-up" data-aos-delay="300">Mangas and Animes ? Hmm, nice ones!</div>
+            <div class="secondary-title">Mangas and Animes ? Hmm, nice ones!</div>
 
-            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620637148/Khoa%27s%20Portfolio%20/MangeMe/Manga_Info_Page_fefzok.png" data-aos="fade-up" data-aos-delay="300"/>
+            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620637148/Khoa%27s%20Portfolio%20/MangeMe/Manga_Info_Page_fefzok.png"/>
 
-            <ParagraphWrapper data-aos="fade-up" data-aos-delay="300"
+            <ParagraphWrapper
                 leftContent="Context and Information" 
                 rightContent="MangaMe is a manga reading website inspired by many other similar 
                 web pages such as Nettruyen, Truyenqq,...It provides everything a manga geeks need 
@@ -43,9 +43,9 @@
                  the requirements of my mentor."
             />
 
-            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1621472688/Khoa%27s%20Portfolio%20/MangeMe/Landing_Page_2_1_xxcj9a.png" data-aos="fade-up" data-aos-delay="300"/>
+            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1621472688/Khoa%27s%20Portfolio%20/MangeMe/Landing_Page_2_1_xxcj9a.png" />
 
-            <ParagraphWrapper data-aos="fade-up" data-aos-delay="300"
+            <ParagraphWrapper
                 leftContent="Fetching mangas from the other websites?" 
                 rightContent="To fetch all the images of a manga chapter, 
                 I used the simple_html_dom library, which is a simple web scraper 
@@ -58,14 +58,14 @@
             />
 
 
-            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620637146/Khoa%27s%20Portfolio%20/MangeMe/Add_Manga_Page_1_hozntt.png" data-aos="fade-up" data-aos-delay="300"/>
-            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620637146/Khoa%27s%20Portfolio%20/MangeMe/Add_Chapter_drhgvb.png" data-aos="fade-up" data-aos-delay="300"/>
-            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620637146/Khoa%27s%20Portfolio%20/MangeMe/Add_Manga_Page_2_hl5ari.png" data-aos="fade-up" data-aos-delay="300"/>
-            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620637146/Khoa%27s%20Portfolio%20/MangeMe/Add_Category_ufkf1r.png" data-aos="fade-up" data-aos-delay="300"/>
-            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620637146/Khoa%27s%20Portfolio%20/MangeMe/Add_New_Image_2_nfslqt.png" data-aos="fade-up" data-aos-delay="300"/>
-            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620637147/Khoa%27s%20Portfolio%20/MangeMe/Page_Content_1_ajgusp.png" data-aos="fade-up" data-aos-delay="300"/>
+            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620637146/Khoa%27s%20Portfolio%20/MangeMe/Add_Manga_Page_1_hozntt.png"/>
+            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620637146/Khoa%27s%20Portfolio%20/MangeMe/Add_Chapter_drhgvb.png" />
+            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620637146/Khoa%27s%20Portfolio%20/MangeMe/Add_Manga_Page_2_hl5ari.png"/>
+            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620637146/Khoa%27s%20Portfolio%20/MangeMe/Add_Category_ufkf1r.png" />
+            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620637146/Khoa%27s%20Portfolio%20/MangeMe/Add_New_Image_2_nfslqt.png"/>
+            <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620637147/Khoa%27s%20Portfolio%20/MangeMe/Page_Content_1_ajgusp.png" />
 
-            <ParagraphWrapper data-aos="fade-up" data-aos-delay="300"
+            <ParagraphWrapper
                 leftContent="Final Conclusion" 
                 rightContent="I deployed this website to my private web hosting belonging to my university 
                 as a way to showcase what I have learnt to my mentor. Having completed this project, 
@@ -73,7 +73,7 @@
                 This is also one of my first projects that gives me the interest to kick start my web development career."
             />
 
-            <ParagraphWrapper data-aos="fade-up" data-aos-delay="300"
+            <ParagraphWrapper
                 leftContent="Resources" 
                 rightContent=""
             >
@@ -83,7 +83,7 @@
            
         </div>
 
-         <div class="next-project" data-aos="fade-up" data-aos-delay="300"> 
+         <div class="next-project"> 
                 <h3>Next Project</h3>
                 <p><NuxtLink to="/projects/mangame">MangaMe</NuxtLink></p>
             </div>

@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer" data-aos="fade-up" data-aos-delay="300">
+    <footer class="footer">
         <div class="container">
             <div class="left-content">
                 Designed and developed with <IconifyIcon :icon="icons.redHeart" /> by Khoa Doan

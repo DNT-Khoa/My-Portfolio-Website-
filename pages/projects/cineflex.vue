@@ -90,7 +90,7 @@ any movie in the industry. This helps provide the profundity for movie resources
             />
 
             <ParagraphWrapper 
-                leftContent="Final Conclusion" 
+                leftContent="Resources" 
                 rightContent=""
             >
             Link to my website: <b><a href="https://cineflex-online-movie-theater.herokuapp.com/home" target="_blank">https://cineflex-online-movie-theater.herokuapp.com</a></b> <br>
@@ -102,14 +102,45 @@ any movie in the industry. This helps provide the profundity for movie resources
 
          <div class="next-project">
                 <h3>Next Project</h3>
-                <p>Mobeye App</p>
+                <p><NuxtLink to="/projects/mobeye">Mobeye App</NuxtLink></p>
             </div>
     </section>
 </template>
 
 <script>
     export default {
-        
+        transition: {
+        name: "fade",
+        mode: "out-in",
+        css: false,
+
+        beforeEnter(el) {
+            this.$gsap.set(el, {
+            opacity: 0,
+            top: "-100%",
+            });
+        },
+
+        enter(el, done) {
+            this.$gsap.to(el, {
+            opacity: 1,
+            top: 0,
+            duration: .5,
+            ease: "power2.inOut",
+            onComplete: done,
+            });
+        },
+
+        leave(el, done) {
+            this.$gsap.to(el, {
+            opacity: 0,
+            top: "100%",
+            duration: .5,
+            ease: "power2.inOut",
+            onComplete: done,
+            });
+        },
+        },
     }
 </script>
 

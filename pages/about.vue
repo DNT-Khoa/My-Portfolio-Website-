@@ -29,7 +29,7 @@
                     excellence program at Fontys. This program aims to provide students with excellent 
                     learning performance the chance to work together as a startup on large-scale and 
                     highly practical projects. I am eager to learn new things and achieve a higher level of 
-                    competency. You can check out my <span><a href="https://drive.google.com/file/d/18J_QYbA8MXM1XzHYM6kKCnUkcAJlmmWs/view?usp=sharing" target="_blank"></a></span> here.</p>
+                    competency. You can check out my <span><a href="https://drive.google.com/file/d/18J_QYbA8MXM1XzHYM6kKCnUkcAJlmmWs/view?usp=sharing" target="_blank">resume</a></span> here.</p>
                 <p class="inner-paragraph"><span>I’m current looking for an internship opportunities</span> so if you are interested, feel free to contact me!</p>
             </div>
 

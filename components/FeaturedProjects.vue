@@ -32,7 +32,7 @@
                 imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1621171486/Khoa%27s%20Portfolio%20/MangeMe/mangame_featured_image_zxkirs.png"
             />
 
-            <div class="link-wrapper">
+            <div class="link-wrapper" data-aos="fade-up" data-aos-delay="300">
                 <NuxtLink to="/projects" class="see-more-link"><span>.getProjects('all')</span><IconifyIcon :icon="icons.arrowRight" class="arrow-icon"/></NuxtLink>
             </div>
         </div>

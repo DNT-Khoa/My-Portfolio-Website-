@@ -33,7 +33,6 @@
             beforeEnter(el) {
                 this.$gsap.set(el, {
                 opacity: 0,
-                top: "-100%",
                 });
             },
 
@@ -50,7 +49,6 @@
             leave(el, done) {
                 this.$gsap.to(el, {
                 opacity: 0,
-                top: "100%",
                 duration: .5,
                 ease: "power2.inOut",
                 onComplete: done,
@@ -121,6 +119,8 @@
 
             setTimeout(() => this.$nuxt.$loading.finish(), 500)
             })
+
+            this.initializeAnimation()
         },
         methods: {
             updateCurrentSelectedLink(e, link) {
@@ -129,13 +129,15 @@
 
                 this.currentSelectedLink = link;
             },
-            updateMousePosition(e) {
-                this.imagePosition = {
-                    left: e.pageX,
-                    top: e.pageY
-                }
-            },
-        }
+            initializeAnimation() {
+
+                this.$gsap.from('.image-wrapper', {
+                    duration: 1,
+                    x: 30,
+                    opacity: 0,
+                })
+            }
+        },
     }
 </script>
 
@@ -156,7 +158,6 @@
             
                 .project-item {
                     font-size: 40px;
-                    font-family: 'Open Sans', sans-serif;
                     font-weight: 700;
                     margin: 10px 0;
                     transition: all .3s ease-out;

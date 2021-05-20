@@ -20,12 +20,37 @@
 
     export default {
         name: 'Hero',
+        mounted() {
+            this.initializeAnimation();
+        },
         components: {
             'lottie': Lottie
         },
         data() {
             return {
                 defaultOptions: {animationData: animationData.default}
+            }
+        },
+        methods: {
+            initializeAnimation() {
+                this.$gsap.from('.primary-headline', {
+                    duration: 1,
+                    opacity: 0,
+                    x: -100
+                });
+
+                this.$gsap.from('.lottie', {
+                    duration: 1,
+                    opacity: 0,
+                    x: 100
+                });
+
+                this.$gsap.from('.email', {
+                    duration: 1,
+                    opacity: 0,
+                    y: 100,
+                    delay: 1
+                })
             }
         }
     }

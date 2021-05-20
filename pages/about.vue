@@ -2,7 +2,7 @@
     <section class="about">
         <div class="container">
             <div class="introduction">
-                <div class="title">Hi there! <br> I'm Khoa Doan</div>
+                <div class="main-title">Hi there! <br> I'm Khoa Doan</div>
                 <div class="image-wrapper">
                     <img :src="src1" alt="Avatar Image" class="avatar-image">
                 </div>
@@ -194,6 +194,32 @@
                 },
             }
         },
+        mounted() {
+            this.initializeAnimation();
+        },
+        methods: {
+            initializeAnimation() {
+                this.$gsap.from('.image-wrapper', {
+                    duration: 1,
+                    rotation: 180,
+                    x: 30,
+                    y: -30
+                });
+
+                this.$gsap.from('.main-title', {
+                    duration: 1,
+                    x: -30,
+                    opacity: 0
+                });
+
+                this.$gsap.from('.description', {
+                    duration: 1,
+                    y: 30,
+                    opacity: 0,
+                    delay: 1
+                })
+            }
+        }
     }
 </script>
 
@@ -205,7 +231,7 @@
             align-items: flex-end;
             justify-content: center;
 
-            .title {
+            .main-title {
                 font-family: 'Red Hat Display', sans-serif;
                 font-size: 40px;
                 font-weight: bold;

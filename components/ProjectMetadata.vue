@@ -50,6 +50,18 @@
             technologies: String,
             roles: String,
             status: String
+        },
+        mounted() {
+            this.initializeAnimation();
+        },
+        methods: {
+            initializeAnimation() {
+                this.$gsap.from('.image-wrapper', {
+                    duration: 1,
+                    opacity: 0,
+                    y: 30
+                })
+            }
         }
     }
 </script>

@@ -73,6 +73,32 @@
                 },
             };
         },
+        mounted() {
+            this.initializeAnimation();
+        }, 
+        methods: {
+            initializeAnimation() {
+                this.$gsap.from('.email', {
+                    duration: 1,
+                    opacity: 0,
+                    y: 30
+                })
+
+                this.$gsap.from('.title', {
+                    duration: 1,
+                    opacity: 0,
+                    y: 30,
+                    delay: 1
+                })
+
+                this.$gsap.from('.contact-links', {
+                    duration: 1,
+                    opacity: 0,
+                    y: 30,
+                    delay: 1
+                })
+            }
+        }
     }
 </script>
 

@@ -27,6 +27,9 @@
 <script>
     export default {
         name: 'NavBar',
+        mounted() {
+            this.initializeAnimation();
+        },
         data() {
             return {
                 isHamburgerOpen: false
@@ -35,6 +38,20 @@
         methods: {
             toggleHamburgerMenu() {
                 this.isHamburgerOpen = !this.isHamburgerOpen;
+            },
+            initializeAnimation() {
+                this.$gsap.from('.logo', {
+                    duration: 1,
+                    y: -30,
+                    opacity: 0
+                })
+
+                this.$gsap.from('.nav-link', {
+                    duration: 1,
+                    y: -50,
+                    opacity: 0,
+                    stagger: 0.2
+                })
             }
         }
     }

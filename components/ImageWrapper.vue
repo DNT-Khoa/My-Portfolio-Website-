@@ -1,5 +1,5 @@
 <template>
-    <div class="image-wrapper">
+    <div class="image-wrapper" data-aos="fade-up" data-aos-delay="300">
         <img :src="src" />
     </div>
 </template>

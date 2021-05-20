@@ -44,7 +44,7 @@ without manually entering their credentials in the browser. Users will be able t
 and be restricted to some app features depending on their role.</p>
             </ParagraphWrapper>
 
-            <div class="secondary-title">How to help the company solve their problems ?</div>
+            <div class="secondary-title" data-aos="fade-up" data-aos-delay="300">How to help the company solve their problems ?</div>
 
             <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1621470684/Khoa%27s%20Portfolio%20/Mobeye/Mobeye-Mock-Api-UML_a0oaf2.png" />
 

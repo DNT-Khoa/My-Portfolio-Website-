@@ -1,5 +1,5 @@
 <template>
-    <div class="work-headline">
+    <div class="work-headline" data-aos="fade-up" data-aos-delay="300">
         <div class="container">
             <div class="title">.getContacts()</div>
             <div class="tagline">thank you for visiting my website. 

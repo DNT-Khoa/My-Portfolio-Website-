@@ -19,7 +19,7 @@
                 status='Finished'
             />
 
-            <ParagraphWrapper
+            <ParagraphWrapper 
                 leftContent='Film, the best form of entertainment'
                 rightContent='The COVID-19 pandemic has had a substantial 
                 impact on the film industry in 2020. Many theaters and festivals
@@ -36,7 +36,7 @@
                   ike they are going to the cinema to watch it.'
             />
 
-            <div class="secondary-title">What features should a movie streaming website offer ?</div>
+            <div class="secondary-title" data-aos="fade-up" data-aos-delay="300">What features should a movie streaming website offer ?</div>
 
             <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1621389686/Khoa%27s%20Portfolio%20/CineFlex/cineflex_another_wgnqsp.png" />
 

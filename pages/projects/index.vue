@@ -26,36 +26,36 @@
 <script>
     export default {
         transition: {
-        name: "fade",
-        mode: "out-in",
-        css: false,
+            name: "fade",
+            mode: "out-in",
+            css: false,
 
-        beforeEnter(el) {
-            this.$gsap.set(el, {
-            opacity: 0,
-            top: "-100%",
-            });
-        },
+            beforeEnter(el) {
+                this.$gsap.set(el, {
+                opacity: 0,
+                top: "-100%",
+                });
+            },
 
-        enter(el, done) {
-            this.$gsap.to(el, {
-            opacity: 1,
-            top: 0,
-            duration: .5,
-            ease: "power2.inOut",
-            onComplete: done,
-            });
-        },
+            enter(el, done) {
+                this.$gsap.to(el, {
+                opacity: 1,
+                top: 0,
+                duration: .5,
+                ease: "power2.inOut",
+                onComplete: done,
+                });
+            },
 
-        leave(el, done) {
-            this.$gsap.to(el, {
-            opacity: 0,
-            top: "100%",
-            duration: .5,
-            ease: "power2.inOut",
-            onComplete: done,
-            });
-        },
+            leave(el, done) {
+                this.$gsap.to(el, {
+                opacity: 0,
+                top: "100%",
+                duration: .5,
+                ease: "power2.inOut",
+                onComplete: done,
+                });
+            },
         },
         data() {
             return {
@@ -113,10 +113,6 @@
 
                 currentSelectedLink: 'https://res.cloudinary.com/dkggp2lec/image/upload/v1621211075/Khoa%27s%20Portfolio%20/projects_jqwbpv.png',
 
-                imagePosition: {
-                    left: 0,
-                    top: 0
-                }
             }
         },
         mounted() {
@@ -138,7 +134,7 @@
                     left: e.pageX,
                     top: e.pageY
                 }
-            }
+            },
         }
     }
 </script>

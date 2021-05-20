@@ -1,5 +1,5 @@
 <template>
-    <div class="paragraph-wrapper">
+    <div class="paragraph-wrapper" data-aos="fade-up" data-aos-delay="300">
         <div class="left-side">
             {{ leftContent }}
         </div>

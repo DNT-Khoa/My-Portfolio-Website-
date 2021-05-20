@@ -3,7 +3,7 @@
         <div class="container">
             <h2 class="title">.getProjects('featured')</h2>
 
-            <FeaturedProject 
+            <FeaturedProject data-aos="fade-up" data-aos-delay="300"
                 title="CineFlex" 
                 timeframe="Sept 2020 - Jan 2021"
                 description="A full-fledged movie streaming website 
@@ -13,7 +13,7 @@
                 imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1621134679/Khoa%27s%20Portfolio%20/CineFlex/Featured_Image_yamp9q.png"
             />
 
-            <FeaturedProject 
+            <FeaturedProject data-aos="fade-up" data-aos-delay="300"
                 title="Mobeye App" 
                 timeframe="Jan 2020 - June 2020"
                 description="A cross-platform mobile application 
@@ -24,7 +24,7 @@
                 imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1621171028/Khoa%27s%20Portfolio%20/Mobeye/mobye_feature_1_d2yetn.png"
             />
 
-            <FeaturedProject 
+            <FeaturedProject data-aos="fade-up" data-aos-delay="300"
                 title="MangaMe" 
                 timeframe="Jan 2020 - Jun 2021"
                 description="A full-fledge manga reading website for comic geeks to read and manage a variety of mangas and animes that they like."

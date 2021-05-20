@@ -31,36 +31,36 @@
 
     export default {
         transition: {
-        name: "fade",
-        mode: "out-in",
-        css: false,
+            name: "fade",
+            mode: "out-in",
+            css: false,
 
-        beforeEnter(el) {
-            this.$gsap.set(el, {
-            opacity: 0,
-            top: "-100%",
-            });
-        },
+            beforeEnter(el) {
+                this.$gsap.set(el, {
+                opacity: 0,
+                top: "-100%",
+                });
+            },
 
-        enter(el, done) {
-            this.$gsap.to(el, {
-            opacity: 1,
-            top: 0,
-            duration: .5,
-            ease: "power2.inOut",
-            onComplete: done,
-            });
-        },
+            enter(el, done) {
+                this.$gsap.to(el, {
+                opacity: 1,
+                top: 0,
+                duration: .5,
+                ease: "power2.inOut",
+                onComplete: done,
+                });
+            },
 
-        leave(el, done) {
-            this.$gsap.to(el, {
-            opacity: 0,
-            top: "100%",
-            duration: .5,
-            ease: "power2.inOut",
-            onComplete: done,
-            });
-        },
+            leave(el, done) {
+                this.$gsap.to(el, {
+                opacity: 0,
+                top: "100%",
+                duration: .5,
+                ease: "power2.inOut",
+                onComplete: done,
+                });
+            },
         },
         components: {
             IconifyIcon,

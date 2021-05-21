@@ -20,7 +20,7 @@
 
 <style lang="scss" scoped>
     .work-headline {
-        padding: 20px 0 70px;
+        padding: 100px 0 70px;
 
         .title {
             color: $text-primary;

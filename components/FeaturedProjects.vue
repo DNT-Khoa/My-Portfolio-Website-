@@ -3,7 +3,7 @@
         <div class="container">
             <h2 class="title">.getProjects('featured')</h2>
 
-            <FeaturedProject data-aos="fade-up" data-aos-delay="300"
+            <FeaturedProject class="fade-up"
                 title="CineFlex" 
                 timeframe="Sept 2020 - Jan 2021"
                 description="A full-fledged movie streaming website 
@@ -13,9 +13,9 @@
                 imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1621134679/Khoa%27s%20Portfolio%20/CineFlex/Featured_Image_yamp9q.png"
             />
 
-            <FeaturedProject data-aos="fade-up" data-aos-delay="300"
+            <FeaturedProject class="fade-up"
                 title="Mobeye App" 
-                timeframe="Jan 2020 - June 2020"
+                timeframe="Sep 2020 - Jan 2021"
                 description="A cross-platform mobile application 
                 used by customers of Mobeye company to control 
                 their IoT devices and receive push notification on different alarming cases."
@@ -24,7 +24,7 @@
                 imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1621171028/Khoa%27s%20Portfolio%20/Mobeye/mobye_feature_1_d2yetn.png"
             />
 
-            <FeaturedProject data-aos="fade-up" data-aos-delay="300"
+            <FeaturedProject class="fade-up"
                 title="LogiK" 
                 timeframe="Jan 2020 - Jun 2021"
                 description="A software platform for electronics company to schedule and manage employees, stocks, mails and orders."
@@ -32,7 +32,7 @@
                 imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1621471942/Khoa%27s%20Portfolio%20/MediaBazaar/MediaBazaar_Feature_Image_iyzyz8.png"
             />
 
-            <div class="link-wrapper" data-aos="fade-up" data-aos-delay="300">
+            <div class="link-wrapper">
                 <NuxtLink to="/projects" class="see-more-link"><span>.getProjects('all')</span><IconifyIcon :icon="icons.arrowRight" class="arrow-icon"/></NuxtLink>
             </div>
         </div>
@@ -45,6 +45,9 @@
 
     export default {
         name: 'FeaturedProjects',
+        mounted() {
+            this.animate();
+        },
         components: {
             IconifyIcon
         },
@@ -53,6 +56,33 @@
                 icons: {
                     arrowRight
                 }
+            }
+        },
+        methods: {
+            animate() {
+                var featuredProjects = this.$gsap.utils.toArray('.fade-up');
+
+                featuredProjects.forEach((project) => {
+                    this.$gsap.from(project, {
+                        duration: 1,
+                        opacity: 0,
+                        y: '30%', 
+                        ease: "Power1.easeInOut",
+                        scrollTrigger: {
+                            trigger: project
+                        }
+                    })
+                })
+
+                this.$gsap.from('.link-wrapper', {
+                    duration: 1,
+                    opacity: 0,
+                    y: '20%',
+                    ease: "Power1.easeInOut",
+                    scrollTrigger: {
+                        trigger: '.link-wrapper'
+                    }
+                })
             }
         }
     }

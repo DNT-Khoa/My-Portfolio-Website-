@@ -165,7 +165,7 @@ any movie in the industry. This helps provide the profundity for movie resources
                 })
             }
            
-        }
+        },
     }
 </script>
 

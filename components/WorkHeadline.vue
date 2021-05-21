@@ -1,5 +1,5 @@
 <template>
-    <div class="work-headline" data-aos="fade-up" data-aos-delay="300">
+    <div class="work-headline">
         <div class="container">
             <div class="title">.getContacts()</div>
             <div class="tagline">thank you for visiting my website. 
@@ -14,7 +14,23 @@
 
 <script>
     export default {
-        name: 'WorkHeadline'
+        name: 'WorkHeadline',
+        mounted() {
+            this.animate();
+        },
+        methods: {
+            animate() {
+                this.$gsap.from('.work-headline', {
+                    duration: 1,
+                    opacity: 0,
+                    y: '20%',
+                    ease: "Power1.easeInOut",
+                    scrollTrigger: {
+                        trigger: '.work-headline'
+                    }
+                })
+            }
+        }
     }
 </script>
 

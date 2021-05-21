@@ -27,7 +27,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: "@/plugins/aos", ssr: false },
+    { src: "@/plugins/aos", ssr: false }
   ],
 
   purgeCSS: { whitelist: [ "aos-init", "aos-animate", "data-aos-delay", "data-aos-duration", "fade-up", "fade-left", "fade-right", "flip-left", ], },
@@ -42,7 +42,8 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/style-resources',
-    '@nuxtjs/cloudinary'
+    '@nuxtjs/cloudinary',
+    'nuxt-purgecss'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -63,5 +64,11 @@ export default {
   loading: {
     color: '#FF4A4A',
     height: '5px'
+  },
+
+  gsap: {
+    extraPlugins: {
+      scrollTrigger: true
+    }
   }
 }

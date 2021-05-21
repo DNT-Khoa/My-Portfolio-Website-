@@ -118,7 +118,7 @@ connect to those devices and manipulate them such as opening door, e.g. "
 
          <div class="next-project">
                 <h3>Next Project</h3>
-                <p><NuxtLink to="/projects/mangame">MangaMe</NuxtLink></p>
+                <p><NuxtLink to="/projects/sudoku">Sudoku Solver Visualizer</NuxtLink></p>
             </div>
     </section>
 </template>

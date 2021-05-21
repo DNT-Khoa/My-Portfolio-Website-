@@ -70,6 +70,7 @@
                         </div>
                         <div class="skill-list">
                             <div class="skill-item">Agile/Scrum</div>
+                            <div class="skill-item">Object Oriented Programming</div>
                             <div class="skill-item">Microservice Architecture</div>
                             <div class="skill-item">REST</div>
                             <div class="skill-item">Test Driven Development</div>

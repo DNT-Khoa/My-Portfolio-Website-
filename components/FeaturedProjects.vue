@@ -25,11 +25,11 @@
             />
 
             <FeaturedProject data-aos="fade-up" data-aos-delay="300"
-                title="MangaMe" 
+                title="LogiK" 
                 timeframe="Jan 2020 - Jun 2021"
-                description="A full-fledge manga reading website for comic geeks to read and manage a variety of mangas and animes that they like."
-                slug="mangame"
-                imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1621171486/Khoa%27s%20Portfolio%20/MangeMe/mangame_featured_image_zxkirs.png"
+                description="A software platform for electronics company to schedule and manage employees, stocks, mails and orders."
+                slug="logik"
+                imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1621471942/Khoa%27s%20Portfolio%20/MediaBazaar/MediaBazaar_Feature_Image_iyzyz8.png"
             />
 
             <div class="link-wrapper" data-aos="fade-up" data-aos-delay="300">

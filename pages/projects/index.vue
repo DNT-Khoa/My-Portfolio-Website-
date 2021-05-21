@@ -102,9 +102,9 @@
                 },
                 {
                     id: '07', 
-                    name: 'MediaBazaar',
+                    name: 'LogiK',
                     actualLink: 'https://res.cloudinary.com/dkggp2lec/image/upload/v1620636978/Khoa%27s%20Portfolio%20/MediaBazaar/Website_Schedule_Page_qgsjqk.png',
-                    slug: 'mediabazaar',
+                    slug: 'logik',
                     isAvailable: true
                 }
                 ],

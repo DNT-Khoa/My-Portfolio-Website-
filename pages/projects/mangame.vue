@@ -85,7 +85,7 @@
 
          <div class="next-project"> 
                 <h3>Next Project</h3>
-                <p><NuxtLink to="/projects/mangame">MangaMe</NuxtLink></p>
+                <p><NuxtLink to="/projects/logik">LogiK</NuxtLink></p>
             </div>
     </section>
 </template>

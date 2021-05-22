@@ -7,7 +7,11 @@
 <script>
     export default {
         props: {
-            imageUrl: String
+            imageUrl: String,
+            isFull: {
+                type: Boolean,
+                default: false
+            }
         },
         data() {
             return {
@@ -26,9 +30,11 @@
         margin: 50px 0;
 
         img {
-            width: 100%;
+            max-width: 100%;
             height: auto;
             object-fit: cover;
+            margin-left: 50%;
+            transform: translateX(-50%);
         }
     }
 </style>

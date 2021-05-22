@@ -220,5 +220,11 @@ I also included a Windows executable file to help you test it out. Feel free to 
         .secondary-title {
             font-size: 30px !important;
         }
+
+        .next-project {
+            p {
+                font-size: 40px !important;
+            }
+        }
     }
 </style>

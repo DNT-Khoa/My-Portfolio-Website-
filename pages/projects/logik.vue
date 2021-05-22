@@ -65,7 +65,7 @@
             <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620636978/Khoa%27s%20Portfolio%20/MediaBazaar/Website_Login_Screen_kh60fc.png" />
 
             <ParagraphWrapper 
-                leftContent="Add schedule checking capability for employees" 
+                leftContent="Checking schedule capability" 
                 rightContent="As an employee, users can check their work shift schedule. The schedule table is displayed as a 
                 calendar based on an algorithm written in JavaScript to display the date correctly. You can also see the name of the employees that have same time slot. "
             />
@@ -73,21 +73,21 @@
             <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620636977/Khoa%27s%20Portfolio%20/MediaBazaar/Website_Schedule_Page_2_qyummy.png" />
 
             <ParagraphWrapper 
-                leftContent="View statistical data" 
+                leftContent="Viewing statistical data" 
                 rightContent="Employees can also view the stock item distibution by means of pie charts and the shifts they missed as bar charts."
             />
 
             <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620636977/Khoa%27s%20Portfolio%20/MediaBazaar/Website_Statistic_Page_iny3d1.png" />
             
             <ParagraphWrapper 
-                leftContent="Search and retrieve stock items" 
+                leftContent="Searching and retrieving stock items" 
                 rightContent="Employees can search for an stock items by their name or id. This will be useful when they want to checkout payment from the customers."
             />
 
             <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620636977/Khoa%27s%20Portfolio%20/MediaBazaar/Website_Depot_Page_ekojux.png" />
             
             <ParagraphWrapper 
-                leftContent="A powerful interal mailing system" 
+                leftContent="Receiving and sending email internally" 
                 rightContent="This is one of the best feature I developed for this project. I implemented a working mailing system functioning just like Gmail. Users can 
                 send, receive and delete their mails. They can also restore the deleted mails if they want. These mails will be stored in database and synchronized in real time 
                 to the desktop application of administrators. Everything is implemented from scratch with the help of JavaScript, PHP and MySQL."
@@ -96,7 +96,7 @@
             <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620636977/Khoa%27s%20Portfolio%20/MediaBazaar/Website_Mailing_Page_rbmei6.png" />
 
             <ParagraphWrapper 
-                leftContent="A profile page for employees" 
+                leftContent="Checking personal details with your profile page" 
                 rightContent="After successfully logging in, employees can change their profile details and even upload a profile image."
             />
 
@@ -108,7 +108,7 @@
 
 
             <ParagraphWrapper 
-                leftContent="Schedule work shifts for employees" 
+                leftContent="Scheduling work shifts for employees" 
                 rightContent="Adminstrators are people with high authority and can perform CRUD operations on the company resources such as employees, stock items and schedules. The 
                 first feature admins can do is schedule work shifts. Addtionally, we also design an algorithm in C# to generate schedules automatically for the incoming weeks.
                 This can cut off the time admins need to manually assign work for the employees."
@@ -117,14 +117,14 @@
             <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620636976/Khoa%27s%20Portfolio%20/MediaBazaar/App_Schedule_t11oht.png" />
 
             <ParagraphWrapper 
-                leftContent="Employees management" 
+                leftContent="Managing employees" 
                 rightContent="When a new employee join the company, he/she will be added to the company system by administrators. Of course, admins can also edit, delete and search for a particular employee available in the system."
             />
 
             <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620636976/Khoa%27s%20Portfolio%20/MediaBazaar/App_Employee_anletn.png" />
 
              <ParagraphWrapper 
-                leftContent="Stock management" 
+                leftContent="Managing stock items" 
                 rightContent="Similarly with employee management section, admins can also perform CRUD operations on the stock items in the company."
             />
 
@@ -139,7 +139,7 @@
             <ImageWrapper imageUrl="https://res.cloudinary.com/dkggp2lec/image/upload/v1620636976/Khoa%27s%20Portfolio%20/MediaBazaar/App_Statistic_fzkgay.png" />
 
             <ParagraphWrapper 
-                leftContent="Internal mailing system for administrators" 
+                leftContent="Receiving and sending mails internally" 
                 rightContent="As mentioned previously in the employee application, administrators can receive and send emails to the employees. This process will be updated in real time with the 
                 help of Ajax library. "
             />
@@ -319,6 +319,12 @@
 
         .secondary-title {
             font-size: 30px !important;
+        }
+
+        .next-project {
+            p {
+                font-size: 40px !important;
+            }
         }
     }
 </style>

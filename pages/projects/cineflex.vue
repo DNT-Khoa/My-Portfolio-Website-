@@ -249,5 +249,11 @@ any movie in the industry. This helps provide the profundity for movie resources
         .secondary-title {
             font-size: 30px !important;
         }
+
+        .next-project {
+            p {
+                font-size: 40px !important;
+            }
+        }
     }
 </style>

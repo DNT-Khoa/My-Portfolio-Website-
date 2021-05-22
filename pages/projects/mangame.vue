@@ -207,5 +207,11 @@
         .secondary-title {
             font-size: 30px !important;
         }
+
+        .next-project {
+            p {
+                font-size: 40px !important;
+            }
+        }
     }
 </style>

@@ -240,5 +240,11 @@ connect to those devices and manipulate them such as opening door, e.g. "
         .secondary-title {
             font-size: 30px !important;
         }
+
+        .next-project {
+            p {
+                font-size: 40px !important;
+            }
+        }
     }
 </style>

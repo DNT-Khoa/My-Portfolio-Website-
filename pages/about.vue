@@ -48,6 +48,7 @@
                             <div class="skill-item">Vue</div>
                             <div class="skill-item">Nuxt.js</div>
                             <div class="skill-item">Next.js</div>
+                            <div class="skill-item">Gatsby.js</div>
                         </div>
                     </div>
 
@@ -423,6 +424,6 @@
             }
         }
 
-        
+
     }
 </style>

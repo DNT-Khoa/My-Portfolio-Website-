@@ -121,7 +121,7 @@
                         </div>
                         <div class="education-timeframe">
                             <div class="duration">3 years</div>
-                            <div class="timeframe">September 2015 - June 2019</div>
+                            <div class="timeframe">September 2015 - June 2018</div>
                         </div>
                     </div>
                 </div>

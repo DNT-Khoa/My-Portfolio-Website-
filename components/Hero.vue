@@ -81,6 +81,7 @@
                     font-size: 28px;
                     text-decoration: underline;
                     font-weight: 400;
+                    color: $text-primary;
                 }
 
                 .lottie {
